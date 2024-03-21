@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B07F0AF-7CC1-3704-AF32-4B64F5C3C932" name="TB_CONTATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:59:56 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id-aluno" id="706DC96F-A720-45CB-0F37-30A99E0286D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:02:03 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A39DE613-5E00-05C6-EA6C-3B899D29465D" referredColumn="36E8E3DC-4895-037E-C35F-E2A66B0A34B7"/>
+</associations>
+</Column>
+<Column name="email" id="5FAB411A-019D-DDA4-0AF2-3CA104DB9179">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:00:49 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="9046ECFF-03CE-E4BC-7130-D9FA069AF39F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:00:49 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83827DFC-651D-8382-B7D9-5B4CC434F592" name="tb_contato_id_aluno_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:02:03 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="706DC96F-A720-45CB-0F37-30A99E0286D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

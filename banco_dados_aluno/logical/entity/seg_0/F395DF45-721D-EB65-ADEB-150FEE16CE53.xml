@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F395DF45-721D-EB65-ADEB-150FEE16CE53" name="TB_INGREDIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:43:05 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ingrediente" id="6737C7F1-A663-42EB-2171-8400742A1DAB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:43:14 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_ingrediente" id="BA3B700C-1758-F34A-9CB0-0317AA37B352">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:43:24 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3E4A5C4-5564-C9B6-C5F8-C1981B587015" name="TB_INGREDIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:43:23 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6737C7F1-A663-42EB-2171-8400742A1DAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

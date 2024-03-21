@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D536156-69E5-A38E-1E56-B99F7F7BB99F" name="TB_PIZZA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:39:47 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pizza" id="75102FFF-DD55-3895-B37B-D3980F416C0E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:41:01 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_pizza" id="F1F720B7-1C37-155F-77B5-2E3A49F620F3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:41:10 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_pizza" id="1CB9A3B4-3A99-FC40-F2FF-E8AD780274DA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:41:38 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDFA9BA9-B356-3871-964A-2A02F9F8D006" name="TB_PIZZA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:41:08 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75102FFF-DD55-3895-B37B-D3980F416C0E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

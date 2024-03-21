@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="730D387F-4DC0-7448-5B8B-978C77C46FA5" name="TB_LOGIN">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:43:49 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="login" id="5324B8EA-AE54-8BAE-BC57-DBAADE1792CB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:45:16 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="26080FA0-83A7-09D4-2164-6620C8D0EBBE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:45:27 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente2" id="D8B5BB54-273B-096C-1947-45A5BF682906">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:45:57 UTC</createdTime>
+<generatorID>D20CBC45-E77E-C212-A61B-D69C4C3F5BD8</generatorID>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<referedAttribute>73324A17-B6CD-C9A6-4E1E-6B186BD5B8F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29B047C1-CD77-5B23-40E0-ED1F3A891D30" name="TB_LOGIN PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:44:05 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

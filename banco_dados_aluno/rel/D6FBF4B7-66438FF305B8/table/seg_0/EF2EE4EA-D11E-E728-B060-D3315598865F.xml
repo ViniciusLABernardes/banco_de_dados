@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF2EE4EA-D11E-E728-B060-D3315598865F" name="TB_CURSO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:07:13 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="5F3C7146-B08D-CCE2-957C-0A2D8FB1EE09">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:07:52 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_curso" id="9C8B961B-D958-7734-7DFD-30FA35CCCE4C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:07:52 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB585154-C427-56B0-5370-492E5B26EA47" name="tb_curso_id_curso_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:07:52 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F3C7146-B08D-CCE2-957C-0A2D8FB1EE09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

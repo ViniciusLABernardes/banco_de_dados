@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="421C0F27-573E-28B1-5E31-C3007D95B479" name="TB_TURMA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:07:58 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id-aluno" id="2E5EED9F-9839-1690-33EE-50897A0F5D06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:09:40 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="569A0991-6817-1389-CBEB-2635A83E432D" referredColumn="36E8E3DC-4895-037E-C35F-E2A66B0A34B7"/>
+</associations>
+</Column>
+<Column name="id_curso" id="AC3D4351-945B-3005-30C5-E7DB93D380CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:10:52 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCC563B8-50F5-67BD-3F57-3483D74FE301" referredColumn="5F3C7146-B08D-CCE2-957C-0A2D8FB1EE09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4EA67C7-D602-65D0-4BAC-3554B7366748" name="tb_turma_id_aluno_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:09:40 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5EED9F-9839-1690-33EE-50897A0F5D06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5507CDF-FA8A-26A9-5757-ABBB914E242D" name="tb_turma_id_curso_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:10:52 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC3D4351-945B-3005-30C5-E7DB93D380CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

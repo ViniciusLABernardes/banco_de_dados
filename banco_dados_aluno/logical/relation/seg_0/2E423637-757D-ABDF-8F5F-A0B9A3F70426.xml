@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pizza_ingrediente" directorySegmentName="seg_0" id="2E423637-757D-ABDF-8F5F-A0B9A3F70426">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:46:38 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<engineerTo>
+<item key="D6FBF4B7-90EF-9E96-3251-66438FF305B8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8D536156-69E5-A38E-1E56-B99F7F7BB99F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F395DF45-721D-EB65-ADEB-150FEE16CE53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

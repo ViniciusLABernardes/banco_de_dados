@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="banco_dados_aluno" id="FE846F91-5C42-1C15-279F-74A9793E1457" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:29:23 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FE846F91-5C42-1C15-279F-74A9793E1457</designId>
+</OSDM_Design>

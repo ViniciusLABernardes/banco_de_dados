@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A412FF39-E2CE-9176-0ECE-5B37916436D9" mainViewID="72BCD7E6-F94D-46FD-6191-9FAB2B9B5056">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 00:29:23 UTC</createdTime>
+<ownerDesignName>banco_dados_aluno</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
