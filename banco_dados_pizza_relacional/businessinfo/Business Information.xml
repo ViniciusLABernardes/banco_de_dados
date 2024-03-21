@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="52E770F8-04BC-62E9-5A9E-EEA82DB0D2B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:22:11 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

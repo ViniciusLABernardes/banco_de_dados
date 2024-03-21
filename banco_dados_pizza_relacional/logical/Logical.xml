@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D3AE85D4-167B-CEEE-FE94-E9F4F8544F29" mainViewID="CC859DDD-6DF6-0918-75B9-A6569002ED38">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:22:11 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

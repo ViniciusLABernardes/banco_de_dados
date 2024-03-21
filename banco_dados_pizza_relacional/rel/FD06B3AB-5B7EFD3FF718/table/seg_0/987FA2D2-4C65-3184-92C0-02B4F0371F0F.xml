@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="987FA2D2-4C65-3184-92C0-02B4F0371F0F" name="TB_PIZZA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:29:53 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pizza" id="2DF5565D-6A3F-7252-BAC0-D2556FCB4DDE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:31:06 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_pizza" id="091996F4-5B26-A070-4020-5436A13129D1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:31:06 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_pizza" id="DA48954B-8987-0D0A-24ED-8E0DD96941EE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:31:06 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A10007E-5EC9-A165-8011-AC10DC939F10" name="tb_pizza_id_pizza_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:31:19 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DF5565D-6A3F-7252-BAC0-D2556FCB4DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

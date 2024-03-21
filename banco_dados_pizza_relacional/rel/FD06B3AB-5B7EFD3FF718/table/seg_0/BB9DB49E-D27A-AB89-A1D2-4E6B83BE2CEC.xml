@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB9DB49E-D27A-AB89-A1D2-4E6B83BE2CEC" name="TB_CONTATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:26:20 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="email" id="639A1537-019B-72DC-6EDE-25C26D5F85E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:28:46 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="5BEBD759-3714-A6BD-7BC1-5C91A0FC09D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:28:46 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id-cliente" id="E9E2F886-3F9E-D966-657A-80815D98F168">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:38:37 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C289D7C-86E2-9AB0-694E-0292667882DD" referredColumn="7D9898E0-7CE1-C281-6C16-57C2F9041493"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C8A5D15-B075-3645-1B7F-E3C9099DC1A9" name="tb_cliente_id_cliente_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:38:37 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9E2F886-3F9E-D966-657A-80815D98F168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD0A20AB-2E62-78D1-DCB5-3C693A22759C" name="TB_PIZZA_COMPOSICAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:35:08 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pizza" id="4CAB34AE-7089-14ED-9AC9-EF18E60417C9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:35:54 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39535105-193E-CFDF-E68D-F21D5F6D81C2" referredColumn="2DF5565D-6A3F-7252-BAC0-D2556FCB4DDE"/>
+</associations>
+</Column>
+<Column name="id_ingrediente" id="7DCB1421-79F8-76E7-EC82-FA9EC584A3FA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:37:00 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D468C52D-7A5F-E9BA-4078-0480584844EB" referredColumn="6E0AB86C-7ED5-8C1D-CFD2-370A657F4DDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3254B960-278D-2B29-A1B1-D5C18C614855" name="tb_pizza_id_pizza_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:35:54 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CAB34AE-7089-14ED-9AC9-EF18E60417C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61EB150B-7D3B-E62C-C4EB-C7E97225953E" name="tb_ingredientes_id_ingredientes_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:37:00 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DCB1421-79F8-76E7-EC82-FA9EC584A3FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

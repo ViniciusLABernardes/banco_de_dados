@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="banco_dados_pizza_relacional" id="EE2C2527-8B97-F72A-4D8E-312EE8DF1CFD" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:22:11 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EE2C2527-8B97-F72A-4D8E-312EE8DF1CFD</designId>
+</OSDM_Design>

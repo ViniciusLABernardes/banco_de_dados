@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B802F84A-D569-327A-A9F6-8CCF53A6D503" containerWithKeyObject="FB1E85DD-4503-3D6B-C603-C4845DE94F54" localFKIndex="776588D9-BAB3-F832-58AC-892EF27180A4" name="tb_cliente_id_cliente_fkv1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:40:08 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<referredTableLongName>TB_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC4A9109-3603-089D-A094-1F5B28C14B86</referredTableID>
+<keyObject>0D59D529-8402-2CD6-5156-CD0D92F039D0</keyObject>
+<referredKeyID>0D59D529-8402-2CD6-5156-CD0D92F039D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id-cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

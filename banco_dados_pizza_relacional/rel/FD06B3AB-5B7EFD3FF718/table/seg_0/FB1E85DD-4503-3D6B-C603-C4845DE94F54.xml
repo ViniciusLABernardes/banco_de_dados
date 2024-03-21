@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB1E85DD-4503-3D6B-C603-C4845DE94F54" name="TB_PEDIDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:32:59 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quantidade" id="6FD46716-BB2A-90A3-68FE-E599E6B43230">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:34:02 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora_pedido" id="9417B132-5340-10CB-D75C-23ED8F5BF95F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:34:02 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id-cliente" id="D21C11D2-B385-894A-16C4-08CA4C350952">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:40:08 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B802F84A-D569-327A-A9F6-8CCF53A6D503" referredColumn="7D9898E0-7CE1-C281-6C16-57C2F9041493"/>
+</associations>
+</Column>
+<Column name="id_pizza" id="56A4DAD5-30E1-E729-DA92-7D6861294A2D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:40:46 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFC6E241-680E-586E-BE0B-19F0D01D1967" referredColumn="2DF5565D-6A3F-7252-BAC0-D2556FCB4DDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="776588D9-BAB3-F832-58AC-892EF27180A4" name="tb_cliente_id_cliente_fkv1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:40:08 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D21C11D2-B385-894A-16C4-08CA4C350952"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A61E97E5-B222-A8A5-73CB-B24152E9C5BB" name="tb_pizza_id_pizza_fkv1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-03-21 01:40:46 UTC</createdTime>
+<ownerDesignName>banco_dados_pizza_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A4DAD5-30E1-E729-DA92-7D6861294A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
