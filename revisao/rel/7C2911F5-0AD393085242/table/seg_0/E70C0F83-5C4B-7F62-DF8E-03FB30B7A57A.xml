@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E70C0F83-5C4B-7F62-DF8E-03FB30B7A57A" name="TB_CONTATO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>4A8C1AF1-D0A0-8C92-F81E-6A617B90972C</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="86A42F0E-F064-998C-6BC6-6F3507D19D66">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>5A3ED109-0D28-B51E-758B-173CDCC89155</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F1877F5-F1F4-6EE6-5839-409ACEFE6ADD" referredColumn="F128120A-4407-3A76-26D7-F0CA95F44B17"/>
+</associations>
+</Column>
+<Column name="telefone" id="6E4246A8-B176-3D32-6FA3-0F21577C5E67">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>788C08BB-82EA-0EA3-0786-57C076B979B0</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="33E43B66-2AE7-C68F-5E06-3AD2CAE1A6B8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>FA15E7E7-B313-DDE8-8AF8-201AAD2179BF</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF212DF8-BC9D-C335-C920-2D371DCB1932" name="tb_contato_id_cliente_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>EDE1FB14-E054-69EC-87E4-4B6F4FC0D354</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A42F0E-F064-998C-6BC6-6F3507D19D66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

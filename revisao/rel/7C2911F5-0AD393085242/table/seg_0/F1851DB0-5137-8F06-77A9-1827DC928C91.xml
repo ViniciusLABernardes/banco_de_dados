@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1851DB0-5137-8F06-77A9-1827DC928C91" name="TB_SALGADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>91957B51-45F4-7751-AD40-1F111AE46CD8</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<ordsAlias>tb_salgados</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_salgado" id="9029FB68-5625-D764-E29C-AE558E3853CC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>B34BD706-AFAE-920E-4C19-B8762A6C3FDD</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_salgado" id="8BB6C1B7-C93A-AC32-AA49-D473A2DC3FF1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>321CEF8D-6C6F-EAEF-4618-8FF9CBC497D6</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="F9F8B3FB-2F12-D396-8B45-73331C980F89">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>B6822E04-E3A0-090F-23EB-1E9B78BB3CE8</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="870532EE-1F38-F0CB-8F86-77D205F67E12" name="tb_salgado_id_salgado_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>D0B24C2C-D1EE-F9FA-5031-7DFDD733F210</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9029FB68-5625-D764-E29C-AE558E3853CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

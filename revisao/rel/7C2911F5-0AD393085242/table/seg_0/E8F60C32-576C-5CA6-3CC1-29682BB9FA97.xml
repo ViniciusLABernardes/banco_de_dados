@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8F60C32-576C-5CA6-3CC1-29682BB9FA97" name="TB_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>61F836A8-FA6E-E930-70BF-57EB037B6F27</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="F128120A-4407-3A76-26D7-F0CA95F44B17">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>8F86AA1D-7E90-8511-8080-90F72797BC5F</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_cliente" id="A9041667-423E-8550-9D2E-A902D85AC442">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>78D240B6-DBBD-E0DD-79EF-9D78B4B953B2</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="73475C92-B56C-9CA6-8DF1-13FAA626AC41">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>1A277879-1169-2E54-BA8D-A81AF8695873</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9A4A8D6-7F7B-9B61-109E-C6F501036D4F" name="tb_cliente_id_cliente_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>DD7BCFDC-5441-7947-7F0D-0F40002A2044</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F128120A-4407-3A76-26D7-F0CA95F44B17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

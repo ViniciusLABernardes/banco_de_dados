@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="656238F8-B7C1-B4A1-80B1-27D619307734" containerWithKeyObject="3DCCDFBA-B629-0F96-29C8-973D857CCCFD" localFKIndex="C34C9CFC-E3DF-C56C-8A51-E486EAD88F4B" name="tb_composicao_id_salgado_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>5BC0DAF8-8111-97C7-9EE4-CF17EEF46D59</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<referredTableLongName>TB_SALGADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1851DB0-5137-8F06-77A9-1827DC928C91</referredTableID>
+<keyObject>870532EE-1F38-F0CB-8F86-77D205F67E12</keyObject>
+<referredKeyID>870532EE-1F38-F0CB-8F86-77D205F67E12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_salgado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

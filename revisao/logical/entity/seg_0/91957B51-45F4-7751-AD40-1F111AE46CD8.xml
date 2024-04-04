@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91957B51-45F4-7751-AD40-1F111AE46CD8" name="TB_SALGADOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:00:15 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_salgado" id="B34BD706-AFAE-920E-4C19-B8762A6C3FDD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:00:22 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_salgado" id="321CEF8D-6C6F-EAEF-4618-8FF9CBC497D6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:00:32 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="B6822E04-E3A0-090F-23EB-1E9B78BB3CE8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:00:43 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0B24C2C-D1EE-F9FA-5031-7DFDD733F210" name="TB_SALGADOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:00:31 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B34BD706-AFAE-920E-4C19-B8762A6C3FDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

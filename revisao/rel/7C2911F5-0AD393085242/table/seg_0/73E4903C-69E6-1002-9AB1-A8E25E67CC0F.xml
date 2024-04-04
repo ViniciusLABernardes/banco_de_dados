@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73E4903C-69E6-1002-9AB1-A8E25E67CC0F" name="TB_ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>BD96B966-6DBC-74D2-29AD-5F3879088CED</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="B7EAF10A-6E9B-1492-A264-B04AAEAE1B91">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>A3E195CF-4DE5-4E9F-2861-FAD1FBDDE20F</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31B30B14-86CE-41DB-203D-72F89D477FAC" referredColumn="F128120A-4407-3A76-26D7-F0CA95F44B17"/>
+</associations>
+</Column>
+<Column name="rua" id="9E415AC4-85DB-309F-976A-AFD574CB3741">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>C988DCF1-51DB-2E78-2A23-4D6C78C424D6</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="DE6479C9-7BE4-7D88-DCA3-6C2825AB94DA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>49883F45-BEBB-EDC7-6E4A-CDE78DE93A6A</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="CC9ADB80-828F-129A-4AF2-6FFEFF2C148D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>FED160B4-774E-BD22-941F-C327E9C30E06</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_e_horario_entrega" id="BC09D130-8362-7A6D-CAB5-D2945FEDF470">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>0735EF73-6AEC-F057-3246-19E59027CF00</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B087F0D1-A34E-0765-205E-263D679720DB" name="TB_ENDERECO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>484DFA86-9E14-14EF-110B-66940D5B39A9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B7EAF10A-6E9B-1492-A264-B04AAEAE1B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B86EE1-0519-773C-3EAF-8ACF2487134D" name="tb_endereco_id_cliente_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:22:14 UTC</createdTime>
+<generatorID>484DFA86-9E14-14EF-110B-66940D5B39A9</generatorID>
+<ownerDesignName>revisao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7EAF10A-6E9B-1492-A264-B04AAEAE1B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

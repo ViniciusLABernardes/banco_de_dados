@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_PEDIDO_SALGADOS" directorySegmentName="seg_0" id="5A4B86E1-366A-BD94-262E-5F16F8454641">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:02:04 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>61F836A8-FA6E-E930-70BF-57EB037B6F27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91957B51-45F4-7751-AD40-1F111AE46CD8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

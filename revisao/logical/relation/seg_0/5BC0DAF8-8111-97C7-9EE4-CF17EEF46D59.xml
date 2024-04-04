@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_COMPOSICAO_SALGADO" directorySegmentName="seg_0" id="5BC0DAF8-8111-97C7-9EE4-CF17EEF46D59">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 01:04:38 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<engineerTo>
+<item key="7C2911F5-F3C6-4E19-AB8D-0AD393085242" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>91957B51-45F4-7751-AD40-1F111AE46CD8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0AF4478F-C622-62AF-7C5F-31C2BFA197D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

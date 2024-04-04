@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="revisao" id="F1A35222-54AB-CDC4-74F6-49E4F6EB0CA1" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 00:54:20 UTC</createdTime>
+<ownerDesignName>revisao</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F1A35222-54AB-CDC4-74F6-49E4F6EB0CA1</designId>
+</OSDM_Design>
